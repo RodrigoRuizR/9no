@@ -38,7 +38,7 @@ class InfomationWidget extends StatelessWidget {
                           ),
                         ),
                         TextSpan(
-                          text: ' Juan',
+                          text: ' Rod',
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Colors.green.shade400,
@@ -85,7 +85,7 @@ class InfomationWidget extends StatelessWidget {
                         title: Padding(
                           padding: EdgeInsets.all(0),
                           child: Text(
-                            "Calle 10 9",
+                            "san jose 108",
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
                         ),

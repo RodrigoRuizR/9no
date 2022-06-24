@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/src/page/home_header.dart';
 import 'package:flutter_application_1/src/page/homepage.dart';
 import 'package:flutter_application_1/src/page/login.dart';
-import 'package:flutter_application_1/src/page/principal_screen.dart';  
+import 'package:flutter_application_1/src/page/principal.dart';  
 import 'package:flutter_application_1/src/page/recuperar.dart';
 import 'package:flutter_application_1/src/page/registro.dart';
 import 'package:flutter_application_1/src/painters/progressView.dart';

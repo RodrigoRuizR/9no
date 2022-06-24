@@ -19,7 +19,7 @@ class _OpcionesProductosWidgetState extends State<OpcionesProductosWidget> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 10),
+      padding: const EdgeInsets.only(bottom: 20),
       child: SizedBox(
         height: widget.size.height * 0.3,
         child: Row(

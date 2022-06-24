@@ -19,7 +19,7 @@ class _MascotasWidgetState extends State<MascotasWidget> {
   Widget build(BuildContext context) {
     return SizedBox(
       width: widget.size.width,
-      height: widget.size.height * 0.2,
+      height: widget.size.height * 0.180,
       child: Padding(
         padding: const EdgeInsets.only(left: 10, bottom: 0),
         child: Column(
@@ -104,7 +104,7 @@ class _MascotasWidgetState extends State<MascotasWidget> {
                     ),
                   ),
                 ),
-                const Text("mi perro")
+                const Text("Mi perro")
               ],
             );
           },

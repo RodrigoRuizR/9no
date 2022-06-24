@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/src/widgets/BottomNavigationBarWid.dart';
 import 'package:flutter_application_1/src/widgets/app_barr.dart';
 import 'package:flutter_application_1/src/widgets/bar_products_widget.dart';
 import 'package:flutter_application_1/src/widgets/bar_services_widget.dart';
@@ -35,6 +36,7 @@ class PrincipalScreen extends StatelessWidget {
               const Divider(thickness: 2),
               ServiceSecaWidget(size: size),
               CarrouselImageCard(size: size),
+              BottomBar(),
             ],
           ),
         ),
@@ -68,7 +70,7 @@ class DescriptionWidget extends StatelessWidget {
                   child: Container(
                     height: size.height * 0.11,
                     width: size.width * 0.4,
-                    child: Image.asset("assets/B5.png"),
+                    child: Image.asset("assets/images/B5.png"),
                   ),
                 ),
                 Padding(
